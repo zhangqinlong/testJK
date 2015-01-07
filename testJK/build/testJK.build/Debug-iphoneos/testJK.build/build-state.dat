@@ -1,0 +1,610 @@
+TtestJK
+v6
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Debug-iphoneos/testJK.app/ResourceRules.plist
+cProcessPCH /var/folders/5n/krbcvcvs2jsg85p6d6c0_fr80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/testJK-Prefix-ezqmoomglbvordhaeodnwtcguxnp/testJK-Prefix.pch.pch testJK/testJK-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/main.o /Users/monst/Documents/testJKgit/testJK/testJK/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/MPViewController.o /Users/monst/Documents/testJKgit/testJK/testJK/MPViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/MPAppDelegate.o /Users/monst/Documents/testJKgit/testJK/testJK/MPAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/testJK normal armv7
+cCopyStringsFile /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/en.lproj/InfoPlist.strings testJK/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/monst/Documents/testJKgit/testJK/testJK/Base.lproj/Main.storyboard
+cCompileAssetCatalog /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app /Users/monst/Documents/testJKgit/testJK/testJK/Images.xcassets
+cProcessInfoPlistFile /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/Info.plist /Users/monst/Documents/testJKgit/testJK/testJK/testJK-Info.plist
+cGenerateDSYMFile /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app.dSYM /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/testJK
+cProcessProductPackaging /Users/monst/Library/MobileDevice/Provisioning\ Profiles/66707333-b5c3-4baa-96d7-91dbd4251505.mobileprovision /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/embedded.mobileprovision
+cTouch /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/testJK.xcent
+cCodeSign /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c0000000053744E6E0000000000000094
+t1400131182
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c0000000053744E6E0000000000000096
+t1400131182
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c0000000053744E6E000000000000036B
+t1400131182
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053744E6E000000000000019E
+t1400131182
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c0000000053744E70000000000063A500
+t1400131184
+s6530304
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c0000000053744E70000000000079C660
+t1400131184
+s7980640
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053744E7100000000004D7BC0
+t1400131185
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+c0000000053744E710000000000433410
+t1400131185
+s4404240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c0000000053744E710000000000306EF0
+t1400131185
+s3174128
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c0000000053744E71000000000006DCD0
+t1400131185
+s449744
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053744E720000000000A90C10
+t1400131186
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c0000000053744E7300000000000417E0
+t1400131187
+s268256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000053744E740000000000649DB0
+t1400131188
+s6593968
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+c0000000053744E740000000000186D60
+t1400131188
+s1600864
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000053744E760000000002759920
+t1400131190
+s41261344
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c0000000053744E800000000000385D50
+t1400131200
+s3693904
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+c0000000053744E84000000000001E300
+t1400131204
+s123648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+c0000000053744E84000000000055EFE0
+t1400131204
+s5631968
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+c0000000053744E85000000000002A880
+t1400131205
+s174208
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+c0000000053744E8500000000000458C0
+t1400131205
+s284864
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+c0000000053744E85000000000003E3E0
+t1400131205
+s254944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+c0000000053744E85000000000002B130
+t1400131205
+s176432
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+c0000000053744E8500000000000E1FD0
+t1400131205
+s925648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+c0000000053744E8500000000000A2A70
+t1400131205
+s666224
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+c0000000053744E85000000000001E8A0
+t1400131205
+s125088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+c0000000053744E85000000000000BF00
+t1400131205
+s48896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+c0000000053744E850000000000034380
+t1400131205
+s213888
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+c0000000053744E850000000000022F30
+t1400131205
+s143152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+c0000000053744E85000000000001E2A0
+t1400131205
+s123552
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+c0000000053744E850000000000052520
+t1400131205
+s337184
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+c0000000053744E850000000000015F20
+t1400131205
+s89888
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+c0000000053744E8600000000001B90D0
+t1400131206
+s1806544
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+c0000000053744E86000000000001F170
+t1400131206
+s127344
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+c0000000053744E86000000000002FCF0
+t1400131206
+s195824
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+c0000000053744E86000000000008A150
+t1400131206
+s565584
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+c0000000053744E8600000000000B60E0
+t1400131206
+s745696
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+c0000000053744E860000000000078720
+t1400131206
+s493344
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+c0000000053744E8600000000000621F0
+t1400131206
+s401904
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+c0000000053744E8600000000000BDAE0
+t1400131206
+s776928
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+c0000000053744E860000000000039080
+t1400131206
+s233600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+c0000000053744E86000000000003CBC0
+t1400131206
+s248768
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+c0000000053744E86000000000002CFE0
+t1400131206
+s184288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+c0000000053744E86000000000001EB50
+t1400131206
+s125776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+c0000000053744E86000000000001EED0
+t1400131206
+s126672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+c0000000053744E8600000000000236B0
+t1400131206
+s145072
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+c0000000053744E8600000000000AC500
+t1400131206
+s705792
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053744EF60000000000000ADC
+t1400131318
+s2780
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+c0000000053744EF6000000000000514C
+t1400131318
+s20812
+
+N/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app
+t1420614120
+s374
+
+N/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app.dSYM
+t2
+s0
+
+N/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/Base.lproj/Main.storyboardc
+t1420614119
+s170
+
+N/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/Info.plist
+t1420614120
+s1320
+
+N/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/PkgInfo
+t1420614120
+s8
+
+N/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/ResourceRules.plist
+t1420614118
+s150
+
+N/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/embedded.mobileprovision
+t1420614120
+s9418
+
+N/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/en.lproj/InfoPlist.strings
+t1420614118
+s42
+
+N/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/testJK
+t1420614118
+s53752
+
+N/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/MPAppDelegate.o
+t1420614118
+s61796
+
+N/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/MPViewController.o
+t1420614118
+s39248
+
+N/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/main.o
+t1420614118
+s3780
+
+N/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/testJK.LinkFileList
+c0000000054ACD9E6000000000000016E
+t1420614118
+s366
+
+N/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/assetcatalog_dependencies.txt
+t1420614120
+s320
+
+N/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/assetcatalog_generated_info.plist
+t1420614120
+s525
+
+N/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/testJK.xcent
+t1420614120
+s489
+
+N/Users/monst/Documents/testJKgit/testJK/testJK/Base.lproj/Main.storyboard
+c0000000054AC8949000000000000071D
+t1420593481
+s1821
+
+N/Users/monst/Documents/testJKgit/testJK/testJK/Images.xcassets
+c0000000054AC91EC00000000000000AA
+t1420595692
+s170
+
+N/Users/monst/Documents/testJKgit/testJK/testJK/MPAppDelegate.h
+c0000000054AC89490000000000000113
+t1420593481
+s275
+
+N/Users/monst/Documents/testJKgit/testJK/testJK/MPAppDelegate.m
+c0000000054AC894900000000000007D7
+t1420593481
+s2007
+
+N/Users/monst/Documents/testJKgit/testJK/testJK/MPViewController.h
+c0000000054AC894900000000000000D5
+t1420593481
+s213
+
+N/Users/monst/Documents/testJKgit/testJK/testJK/MPViewController.m
+c0000000054AC894900000000000001EF
+t1420593481
+s495
+
+N/Users/monst/Documents/testJKgit/testJK/testJK/en.lproj/InfoPlist.strings
+c0000000054AC8949000000000000002D
+t1420593481
+s45
+
+N/Users/monst/Documents/testJKgit/testJK/testJK/main.m
+c0000000054AC8949000000000000014F
+t1420593481
+s335
+
+N/Users/monst/Documents/testJKgit/testJK/testJK/testJK-Info.plist
+c0000000054ACC8260000000000000503
+t1420609574
+s1283
+
+N/Users/monst/Documents/testJKgit/testJK/testJK/testJK-Prefix.pch
+c0000000054AC89490000000000000158
+t1420593481
+s344
+
+N/Users/monst/Library/MobileDevice/Provisioning Profiles/66707333-b5c3-4baa-96d7-91dbd4251505.mobileprovision
+c0000000054782F5100000000000024CA
+t1417162577
+s9418
+
+N/var/folders/5n/krbcvcvs2jsg85p6d6c0_fr80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/testJK-Prefix-ezqmoomglbvordhaeodnwtcguxnp/testJK-Prefix.pch.pch
+t1420614118
+s93940
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies86217e66115dba41^d3508766115dba41^---0#1#1#--18"Check dependencies36"1D84D3C0-5B12-42DD-A7E7-3CB9853156EB-
+
+CCodeSign /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app
+s442306920.671968
+e442306920.922143
+r1
+xCodeSign
+x/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"CodeSign build/Debug-iphoneos/testJK.app40"CodeSign build/Debug-iphoneos/testJK.app1d20ac68115dba41^f112ec68115dba41^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/0000000000000000^1093"CodeSign build/Debug-iphoneos/testJK.app    cd /Users/monst/Documents/testJKgit/testJK    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Cocos/tools/ant/bin:/Applications/Cocos/frameworks/cocos2d-x:/Applications/Cocos/frameworks/cocos2d-x/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    Using code signing identity "iPhone Developer: Jianlong Nie (2EV358AFU3)" and provisioning profile "danwang" (66707333-b5c3-4baa-96d7-91dbd4251505)    /usr/bin/codesign --force --sign 0086D4F732578075D2EE0F41F189FE0017818702 --resource-rules=/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/ResourceRules.plist --entitlements /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/testJK.xcent /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app36"8E229FCE-75A8-40C2-B6E1-78E98D8636B7-
+b8E66FF49-4AEF-4398-804A-ADBC187F90E0
+
+CCompileAssetCatalog /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app /Users/monst/Documents/testJKgit/testJK/testJK/Images.xcassets
+s442306918.956456
+e442306920.608309
+r1
+xCompileAssetCatalog
+x/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app
+x/Users/monst/Documents/testJKgit/testJK/testJK/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/LaunchImage-700-568h@2x.png
+o/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/Assets.car
+o/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"CompileAssetCatalog build/Debug-iphoneos/testJK.app testJK/Images.xcassets74"CompileAssetCatalog build/Debug-iphoneos/testJK.app testJK/Images.xcassets5beef466115dba41^95bb9b68115dba41^-348"/* com.apple.actool.compilation-results *//Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/LaunchImage-700-568h@2x.png/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/Assets.car/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@70"file:///Users/monst/Documents/testJKgit/testJK/testJK/Images.xcassets/0000000000000000^1159"CompileAssetCatalog build/Debug-iphoneos/testJK.app testJK/Images.xcassets    cd /Users/monst/Documents/testJKgit/testJK    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Cocos/tools/ant/bin:/Applications/Cocos/frameworks/cocos2d-x:/Applications/Cocos/frameworks/cocos2d-x/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app /Users/monst/Documents/testJKgit/testJK/testJK/Images.xcassets36"28E506A7-FF1C-4558-9CD2-14A4E64F4202-
+b8E66FF49-4AEF-4398-804A-ADBC187F90E0
+
+CCompileC build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/MPAppDelegate.o /Users/monst/Documents/testJKgit/testJK/testJK/MPAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s442306918.568537
+e442306918.644577
+r1
+xCompileC
+xbuild/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/MPAppDelegate.o
+x/Users/monst/Documents/testJKgit/testJK/testJK/MPAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/monst/Documents/testJKgit/testJK/testJK/MPAppDelegate.m
+d/Users/monst/Documents/testJKgit/testJK/testJK/MPAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/monst/Documents/testJKgit/testJK/testJK/MPAppDelegate.m184"CompileC build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/MPAppDelegate.o testJK/MPAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler69a89166115dba41^7503a566115dba41^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/monst/Documents/testJKgit/testJK/testJK/MPAppDelegate.m0000000000000000^3432"CompileC build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/MPAppDelegate.o testJK/MPAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/monst/Documents/testJKgit/testJK    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Cocos/tools/ant/bin:/Applications/Cocos/frameworks/cocos2d-x:/Applications/Cocos/frameworks/cocos2d-x/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/testJK-generated-files.hmap -I/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/testJK-own-target-headers.hmap -I/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/testJK-all-target-headers.hmap -iquote /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/testJK-project-headers.hmap -I/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/DerivedSources/armv7 -I/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/DerivedSources -F/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos -include /var/folders/5n/krbcvcvs2jsg85p6d6c0_fr80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/testJK-Prefix-ezqmoomglbvordhaeodnwtcguxnp/testJK-Prefix.pch -MMD -MT dependencies -MF /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/MPAppDelegate.d --serialize-diagnostics /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/MPAppDelegate.dia -c /Users/monst/Documents/testJKgit/testJK/testJK/MPAppDelegate.m -o /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/MPAppDelegate.o36"822576E1-2663-44CF-A88D-690271229458-
+b8E66FF49-4AEF-4398-804A-ADBC187F90E0
+
+CCompileC build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/MPViewController.o /Users/monst/Documents/testJKgit/testJK/testJK/MPViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s442306918.568264
+e442306918.634064
+r1
+xCompileC
+xbuild/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/MPViewController.o
+x/Users/monst/Documents/testJKgit/testJK/testJK/MPViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/monst/Documents/testJKgit/testJK/testJK/MPViewController.m
+d/Users/monst/Documents/testJKgit/testJK/testJK/MPViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/monst/Documents/testJKgit/testJK/testJK/MPViewController.m190"CompileC build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/MPViewController.o testJK/MPViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerf2949166115dba41^a051a266115dba41^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/monst/Documents/testJKgit/testJK/testJK/MPViewController.m0000000000000000^3450"CompileC build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/MPViewController.o testJK/MPViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/monst/Documents/testJKgit/testJK    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Cocos/tools/ant/bin:/Applications/Cocos/frameworks/cocos2d-x:/Applications/Cocos/frameworks/cocos2d-x/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/testJK-generated-files.hmap -I/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/testJK-own-target-headers.hmap -I/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/testJK-all-target-headers.hmap -iquote /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/testJK-project-headers.hmap -I/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/DerivedSources/armv7 -I/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/DerivedSources -F/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos -include /var/folders/5n/krbcvcvs2jsg85p6d6c0_fr80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/testJK-Prefix-ezqmoomglbvordhaeodnwtcguxnp/testJK-Prefix.pch -MMD -MT dependencies -MF /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/MPViewController.d --serialize-diagnostics /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/MPViewController.dia -c /Users/monst/Documents/testJKgit/testJK/testJK/MPViewController.m -o /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/MPViewController.o36"E7BC7C60-AE6D-4086-A9D1-88166A8DE46B-
+b8E66FF49-4AEF-4398-804A-ADBC187F90E0
+
+CCompileC build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/main.o /Users/monst/Documents/testJKgit/testJK/testJK/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s442306918.567970
+e442306918.603625
+r1
+xCompileC
+xbuild/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/main.o
+x/Users/monst/Documents/testJKgit/testJK/testJK/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/monst/Documents/testJKgit/testJK/testJK/main.m
+d/Users/monst/Documents/testJKgit/testJK/testJK/MPAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/monst/Documents/testJKgit/testJK/testJK/main.m166"CompileC build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/main.o testJK/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler7f889166115dba41^76899a66115dba41^---0#0#1#-19%DVTDocumentLocation2@60"file:///Users/monst/Documents/testJKgit/testJK/testJK/main.m0000000000000000^3378"CompileC build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/main.o testJK/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/monst/Documents/testJKgit/testJK    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Cocos/tools/ant/bin:/Applications/Cocos/frameworks/cocos2d-x:/Applications/Cocos/frameworks/cocos2d-x/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/testJK-generated-files.hmap -I/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/testJK-own-target-headers.hmap -I/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/testJK-all-target-headers.hmap -iquote /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/testJK-project-headers.hmap -I/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/DerivedSources/armv7 -I/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/DerivedSources -F/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos -include /var/folders/5n/krbcvcvs2jsg85p6d6c0_fr80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/testJK-Prefix-ezqmoomglbvordhaeodnwtcguxnp/testJK-Prefix.pch -MMD -MT dependencies -MF /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/main.dia -c /Users/monst/Documents/testJKgit/testJK/testJK/main.m -o /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/main.o36"39E5E0E9-44F5-43D7-8A1E-14D70B5588D9-
+b8E66FF49-4AEF-4398-804A-ADBC187F90E0
+
+CCompileStoryboard /Users/monst/Documents/testJKgit/testJK/testJK/Base.lproj/Main.storyboard
+s442306918.956142
+e442306919.030423
+r1
+xCompileStoryboard
+x/Users/monst/Documents/testJKgit/testJK/testJK/Base.lproj/Main.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"CompileStoryboard testJK/Base.lproj/Main.storyboard51"CompileStoryboard testJK/Base.lproj/Main.storyboardb2daf466115dba41^8acd0767115dba41^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/monst/Documents/testJKgit/testJK/testJK/Base.lproj/Main.storyboard0000000000000000^928"CompileStoryboard testJK/Base.lproj/Main.storyboard    cd /Users/monst/Documents/testJKgit/testJK    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Cocos/tools/ant/bin:/Applications/Cocos/frameworks/cocos2d-x:/Applications/Cocos/frameworks/cocos2d-x/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/Base.lproj/Main.storyboardc /Users/monst/Documents/testJKgit/testJK/testJK/Base.lproj/Main.storyboard36"3837023B-0BEF-4C5C-BC6A-502FA8CC73C7-
+b8E66FF49-4AEF-4398-804A-ADBC187F90E0
+
+CCopyStringsFile /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/en.lproj/InfoPlist.strings testJK/en.lproj/InfoPlist.strings
+s442306918.956002
+e442306918.987252
+r1
+xCopyStringsFile
+x/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/en.lproj/InfoPlist.strings
+xtestJK/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy testJK/en.lproj/InfoPlist.strings108"CopyStringsFile build/Debug-iphoneos/testJK.app/en.lproj/InfoPlist.strings testJK/en.lproj/InfoPlist.stringse5d2f466115dba41^babdfc66115dba41^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/monst/Documents/testJKgit/testJK/testJK/en.lproj/InfoPlist.strings0000000000000000^709"CopyStringsFile build/Debug-iphoneos/testJK.app/en.lproj/InfoPlist.strings testJK/en.lproj/InfoPlist.strings    cd /Users/monst/Documents/testJKgit/testJK    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Cocos/tools/ant/bin:/Applications/Cocos/frameworks/cocos2d-x:/Applications/Cocos/frameworks/cocos2d-x/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/en.lproj -- testJK/en.lproj/InfoPlist.strings36"B677D1FA-D105-4727-BCB6-EE99841D906B-
+b8E66FF49-4AEF-4398-804A-ADBC187F90E0
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Debug-iphoneos/testJK.app/ResourceRules.plist
+s442306918.529118
+e442306918.530223
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/testJK.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphoneos/testJK.app/ResourceRules.plist184"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Debug-iphoneos/testJK.app/ResourceRules.plist7a8b8766115dba41^9dbd8766115dba41^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/ResourceRules.plist0034c427deffdf42^883"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Debug-iphoneos/testJK.app/ResourceRules.plist    cd /Users/monst/Documents/testJKgit/testJK    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Cocos/tools/ant/bin:/Applications/Cocos/frameworks/cocos2d-x:/Applications/Cocos/frameworks/cocos2d-x/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app36"2FD7B3FC-F8D3-4E9B-A0D2-C9032AE32F34-
+b8E66FF49-4AEF-4398-804A-ADBC187F90E0
+
+CGenerateDSYMFile /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app.dSYM /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/testJK
+s442306920.611349
+e442306920.668039
+r1
+xGenerateDSYMFile
+x/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app.dSYM
+x/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/testJK
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Generate /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app.dSYM92"GenerateDSYMFile build/Debug-iphoneos/testJK.app.dSYM build/Debug-iphoneos/testJK.app/testJK70949c68115dba41^c905ab68115dba41^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app.dSYM0034c427deffdf42^744"GenerateDSYMFile build/Debug-iphoneos/testJK.app.dSYM build/Debug-iphoneos/testJK.app/testJK    cd /Users/monst/Documents/testJKgit/testJK    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Cocos/tools/ant/bin:/Applications/Cocos/frameworks/cocos2d-x:/Applications/Cocos/frameworks/cocos2d-x/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/testJK -o /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app.dSYM36"0182D1D9-7745-433D-9244-0F772B74BDFF-
+b8E66FF49-4AEF-4398-804A-ADBC187F90E0
+
+CLd /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/testJK normal armv7
+s442306918.646237
+e442306918.955278
+r1
+xLd
+x/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/testJK
+xnormal
+xarmv7
+d/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/testJK.LinkFileList
+d/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/main.o
+d/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/MPViewController.o
+d/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/MPAppDelegate.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Link /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/testJK54"Ld build/Debug-iphoneos/testJK.app/testJK normal armv72f87a566115dba41^4c8df466115dba41^---0#0#1#--1359"Ld build/Debug-iphoneos/testJK.app/testJK normal armv7    cd /Users/monst/Documents/testJKgit/testJK    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Cocos/tools/ant/bin:/Applications/Cocos/frameworks/cocos2d-x:/Applications/Cocos/frameworks/cocos2d-x/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos -F/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos -filelist /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/testJK.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/Objects-normal/armv7/testJK_dependency_info.dat -o /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/testJK36"73481319-5B18-4DC4-9DAF-FFF4BEB541E5-
+b8E66FF49-4AEF-4398-804A-ADBC187F90E0
+
+CProcessInfoPlistFile /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/Info.plist /Users/monst/Documents/testJKgit/testJK/testJK/testJK-Info.plist
+s442306920.608824
+e442306920.610922
+r1
+xProcessInfoPlistFile
+x/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/Info.plist
+x/Users/monst/Documents/testJKgit/testJK/testJK/testJK-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Process /Users/monst/Documents/testJKgit/testJK/testJK/testJK-Info.plist88"ProcessInfoPlistFile build/Debug-iphoneos/testJK.app/Info.plist testJK/testJK-Info.plist91f29b68115dba41^e9659c68115dba41^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/monst/Documents/testJKgit/testJK/testJK/testJK-Info.plist0000000000000000^1063"ProcessInfoPlistFile build/Debug-iphoneos/testJK.app/Info.plist testJK/testJK-Info.plist    cd /Users/monst/Documents/testJKgit/testJK    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Cocos/tools/ant/bin:/Applications/Cocos/frameworks/cocos2d-x:/Applications/Cocos/frameworks/cocos2d-x/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility /Users/monst/Documents/testJKgit/testJK/testJK/testJK-Info.plist -genpkginfo /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/ResourceRules.plist -additionalcontentfile /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/assetcatalog_generated_info.plist -o /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/Info.plist36"AC2F3EFF-87F0-445B-87EF-C369B69BA4E6-
+b8E66FF49-4AEF-4398-804A-ADBC187F90E0
+
+CProcessPCH /var/folders/5n/krbcvcvs2jsg85p6d6c0_fr80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/testJK-Prefix-ezqmoomglbvordhaeodnwtcguxnp/testJK-Prefix.pch.pch testJK/testJK-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s442306918.530843
+e442306918.567287
+r1
+xProcessPCH
+x/var/folders/5n/krbcvcvs2jsg85p6d6c0_fr80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/testJK-Prefix-ezqmoomglbvordhaeodnwtcguxnp/testJK-Prefix.pch.pch
+xtestJK/testJK-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/monst/Documents/testJKgit/testJK/testJK/testJK-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile testJK/testJK-Prefix.pch287"ProcessPCH /var/folders/5n/krbcvcvs2jsg85p6d6c0_fr80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/testJK-Prefix-ezqmoomglbvordhaeodnwtcguxnp/testJK-Prefix.pch.pch testJK/testJK-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerde038866115dba41^c13b9166115dba41^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/monst/Documents/testJKgit/testJK/testJK/testJK-Prefix.pch0000000000000000^3529"ProcessPCH /var/folders/5n/krbcvcvs2jsg85p6d6c0_fr80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/testJK-Prefix-ezqmoomglbvordhaeodnwtcguxnp/testJK-Prefix.pch.pch testJK/testJK-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/monst/Documents/testJKgit/testJK    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Cocos/tools/ant/bin:/Applications/Cocos/frameworks/cocos2d-x:/Applications/Cocos/frameworks/cocos2d-x/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/testJK-generated-files.hmap -I/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/testJK-own-target-headers.hmap -I/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/testJK-all-target-headers.hmap -iquote /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/testJK-project-headers.hmap -I/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/DerivedSources/armv7 -I/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/DerivedSources -F/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos --serialize-diagnostics /var/folders/5n/krbcvcvs2jsg85p6d6c0_fr80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/testJK-Prefix-ezqmoomglbvordhaeodnwtcguxnp/testJK-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/5n/krbcvcvs2jsg85p6d6c0_fr80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/testJK-Prefix-ezqmoomglbvordhaeodnwtcguxnp/testJK-Prefix.pch.d -c /Users/monst/Documents/testJKgit/testJK/testJK/testJK-Prefix.pch -o /var/folders/5n/krbcvcvs2jsg85p6d6c0_fr80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/testJK-Prefix-ezqmoomglbvordhaeodnwtcguxnp/testJK-Prefix.pch.pch36"E537035C-AAC1-463C-8328-7F7F74B3DD2F-
+b8E66FF49-4AEF-4398-804A-ADBC187F90E0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/testJK.xcent
+s442306920.670328
+e442306920.671643
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/testJK.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection204"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/testJK.build/Debug-iphoneos/testJK.build/testJK.xcent204"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/testJK.build/Debug-iphoneos/testJK.build/testJK.xcent04aeab68115dba41^0af2ab68115dba41^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/testJK.xcent0034c427deffdf42^883"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/testJK.build/Debug-iphoneos/testJK.build/testJK.xcent    cd /Users/monst/Documents/testJKgit/testJK    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Cocos/tools/ant/bin:/Applications/Cocos/frameworks/cocos2d-x:/Applications/Cocos/frameworks/cocos2d-x/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/monst/Documents/testJKgit/testJK/build/testJK.build/Debug-iphoneos/testJK.build/testJK.xcent36"C811F81D-1D1C-432D-9CC3-58C78D2B9BD2-
+b8E66FF49-4AEF-4398-804A-ADBC187F90E0
+
+CProcessProductPackaging /Users/monst/Library/MobileDevice/Provisioning\ Profiles/66707333-b5c3-4baa-96d7-91dbd4251505.mobileprovision /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/embedded.mobileprovision
+s442306920.668466
+e442306920.669546
+r1
+xProcessProductPackaging
+x/Users/monst/Library/MobileDevice/Provisioning Profiles/66707333-b5c3-4baa-96d7-91dbd4251505.mobileprovision
+x/Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection190"ProcessProductPackaging /Users/monst/Library/MobileDevice/Provisioning\ Profiles/66707333-b5c3-4baa-96d7-91dbd4251505.mobileprovision build/Debug-iphoneos/testJK.app/embedded.mobileprovision190"ProcessProductPackaging /Users/monst/Library/MobileDevice/Provisioning\ Profiles/66707333-b5c3-4baa-96d7-91dbd4251505.mobileprovision build/Debug-iphoneos/testJK.app/embedded.mobileprovision6e35ab68115dba41^9d68ab68115dba41^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/embedded.mobileprovision0034c427deffdf42^829"ProcessProductPackaging /Users/monst/Library/MobileDevice/Provisioning\ Profiles/66707333-b5c3-4baa-96d7-91dbd4251505.mobileprovision build/Debug-iphoneos/testJK.app/embedded.mobileprovision    cd /Users/monst/Documents/testJKgit/testJK    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Cocos/tools/ant/bin:/Applications/Cocos/frameworks/cocos2d-x:/Applications/Cocos/frameworks/cocos2d-x/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-productPackagingUtility /Users/monst/Library/MobileDevice/Provisioning\ Profiles/66707333-b5c3-4baa-96d7-91dbd4251505.mobileprovision -o /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app/embedded.mobileprovision36"4B0E87F2-502B-477A-B2F0-71E4CFD4A648-
+b8E66FF49-4AEF-4398-804A-ADBC187F90E0
+
+CTouch /Users/monst/Documents/testJKgit/testJK/build/Debug-iphoneos/testJK.app
+r0
+
